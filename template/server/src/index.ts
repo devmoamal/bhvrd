@@ -1,12 +1,10 @@
-import { Hono } from "hono";
-
-const app = new Hono();
-
-app.get("/", (c) => {
-  return c.json({ name: "bhvrd", status: "ok" });
-});
+import { app } from "@/app";
+import { env } from "@/config/env.config";
+import { logger } from "@/lib/logger";
 
 export default {
-  port: Number(process.env.PORT) || 3000,
+  port: env.PORT,
   fetch: app.fetch,
 };
+
+logger.info(`Server running on port ${env.PORT}`);
