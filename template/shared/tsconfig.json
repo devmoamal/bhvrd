@@ -14,8 +14,8 @@
     "rootDir": ".",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     }
   },
-  "include": ["types", "validations", "constants", "index.ts"]
+  "include": ["src"]
 }
