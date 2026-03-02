@@ -17,5 +17,5 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["types", "validations"]
+  "include": ["types", "validations", "constants", "index.ts"]
 }
