@@ -1,0 +1,19 @@
+{
+  "name": "bhvrd",
+  "version": "1.0.0",
+  "description": "Scaffold a full-stack monorepo with Bun + Hono + Vite + React + Drizzle",
+  "type": "module",
+  "bin": {
+    "bhvrd": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "template"
+  ],
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.9"
+  }
+}
