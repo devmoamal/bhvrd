@@ -13,7 +13,7 @@ const __dirname = dirname(__filename);
 const TEMPLATE_DIR = resolve(__dirname, "..", "template");
 const PLACEHOLDER = "bhvrd";
 const PLACEHOLDER_CAP = "BHVRD";
-const VERSION = "1.1.0";
+const VERSION = "1.1.1";
 
 const TEXT_EXTENSIONS = new Set([
   ".ts",
