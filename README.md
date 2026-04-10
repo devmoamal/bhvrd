@@ -36,10 +36,11 @@ All packages are linked via Bun workspaces with `@myapp/shared` as the shared de
 | ---------- | -------------------------------------------------------- |
 | Runtime    | [Bun](https://bun.sh)                                    |
 | Server     | [Hono](https://hono.dev)                                 |
-| Frontend   | [Vite](https://vite.dev) + [React 19](https://react.dev) |
+| Frontend   | [Vite 8](https://vite.dev) + [React 19.2](https://react.dev) |
+| Styling    | [Tailwind CSS v4](https://tailwindcss.com)                |
 | Database   | [Drizzle ORM](https://orm.drizzle.team) + PostgreSQL     |
 | Cache      | [Redis](https://redis.io) via ioredis                    |
-| Validation | [Zod](https://zod.dev)                                   |
+| Validation | [Zod 4](https://zod.dev)                                  |
 
 ## After Scaffolding
 
